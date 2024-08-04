@@ -1,3 +1,12 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    margin-right: 10px;
+}
 .bold_and_large {
     font-weight: bold; /* 加粗文本 */
     font-size: 200%; /* 增大文本的大小 */
