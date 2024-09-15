@@ -8,6 +8,20 @@ ul{
 ul li{
     margin-right: 5%;
 }
+.title_image {
+    display: flex; /* 设置为flex布局 */
+    align-items: center; /* 垂直居中对齐子元素 */
+    justify-content: space-between; /* 子元素在主轴方向上分散对齐 */
+}
+
+.title_image img {
+    /* 图片默认左对齐，因为它是flex布局的第一个子元素 */
+}
+
+.title_image h2 {
+	margin-left: auto;/*设置为居中对齐*/
+	margin-right: auto;
+}
 .bold_and_large {
     font-weight: bold; /* 加粗文本 */
     font-size: 200%; /* 增大文本的大小 */
