@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="我的课表与每日作息时间表">
+    <title>课表与作息时间 · 我的主页</title>
+    <link rel="stylesheet" href="public.css">
+</head>
+
+<body>
+
+    <!-- 顶部导航（与主页保持一致） -->
+    <header class="topbar">
+        <div class="container">
+            <nav class="nav" aria-label="主导航">
+                <a class="brand" href="index.html">
+                    <span class="brand-badge" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+                            <path d="M6 12v5c3 2 9 2 12 0v-5" />
+                        </svg>
+                    </span>
+                    我的主页
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">主页</a></li>
+                    <li>
+                        <a class="active" href="page_one.html">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="3" y="4" width="18" height="18" rx="2" />
+                                <path d="M16 2v4M8 2v4M3 10h18" />
+                            </svg>
+                            课表作息
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.fmp.edu.cn" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                <path d="M15 3h6v6M10 14 21 3" />
+                        </svg>
+                            福墨理工官网
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero container">
+            <h1 class="reveal">课表与作息时间</h1>
+            <p class="reveal d1">合理规划每一天，学习生活井井有条</p>
+        </section>
+
+        <section class="section container">
+            <div class="grid grid-2">
+
+                <!-- 课表 -->
+                <article class="card schedule-card reveal d1">
+                    <div class="card-head">
+                        <span class="icon-tile" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="18" rx="2" />
+                                <path d="M16 2v4M8 2v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01" />
+                            </svg>
+                        </span>
+                        <h2>每周课表</h2>
+                        <span class="tag">Curriculum</span>
+                    </div>
+                    <div class="img-frame">
+                        <img src="Curriculum.png" alt="每周课程表" title="课表"
+                            data-missing-title="课表图片未找到"
+                            data-missing-name="Curriculum.png"
+                            onerror="handleImgError(this)">
+                        <div class="img-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <circle cx="9" cy="9" r="2" />
+                                <path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21" />
+                            </svg>
+                            <strong>课表图片未找到</strong>
+                            <span>请将图片文件 <code>Curriculum.png</code> 放到站点目录后刷新页面。</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- 作息时间表 -->
+                <article class="card schedule-card reveal d2">
+                    <div class="card-head">
+                        <span class="icon-tile alt" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                        </span>
+                        <h2>作息时间表</h2>
+                        <span class="tag">Time Table</span>
+                    </div>
+                    <div class="img-frame">
+                        <img src="Time Table.png" alt="每日作息时间表" title="作息时间表"
+                            data-missing-title="作息时间表图片未找到"
+                            data-missing-name="Time Table.png"
+                            onerror="handleImgError(this)">
+                        <div class="img-placeholder">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <circle cx="9" cy="9" r="2" />
+                                <path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21" />
+                            </svg>
+                            <strong>作息时间表图片未找到</strong>
+                            <span>请将图片文件 <code>Time Table.png</code> 放到站点目录后刷新页面。</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© <span id="year">2026</span> 我的主页 · 福墨理工</span>
+            <a href="index.html">返回主页</a>
+        </div>
+    </footer>
+
+    <script>
+        // 页脚年份
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // 图片加载失败时：隐藏破损图标，展示占位提示
+        function handleImgError(img) {
+            img.style.display = 'none';
+            var placeholder = img.nextElementSibling;
+            if (placeholder && placeholder.classList.contains('img-placeholder')) {
+                placeholder.style.display = 'flex';
+            }
+        }
+    </script>
+</body>
+
+</html>
